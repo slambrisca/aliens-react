@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git@github.com:slambrisca/aliens-react.git"
   },
-  "main": "src/server/index.js",
+  "main": "src/client/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "npm run build && node src/server/index.js",
@@ -18,11 +18,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
+    "mongoose": "^5.3.3",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "styled-components": "^3.4.9"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
